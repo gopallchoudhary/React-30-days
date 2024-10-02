@@ -6,6 +6,7 @@ function One() {
   return (
     <>
         <Hello/>
+        <p>Day-1</p>
     </>
   )
 }
