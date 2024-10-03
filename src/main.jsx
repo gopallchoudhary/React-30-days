@@ -6,6 +6,7 @@ import One from "./One.jsx";
 import Two from "./Two.jsx";
 import Three from "./Three.jsx";
 import Four from "./Four.jsx";
+import Five from "./Five.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById("root")).render(
     {/* <One /> */}
     {/* <Two/> */}
     {/* <Three/> */}
-    <Four/>
+    {/* <Four/> */}
+    <Five/>
   </StrictMode>
 );
