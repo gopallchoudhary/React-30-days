@@ -7,14 +7,16 @@ import Two from "./Two.jsx";
 import Three from "./Three.jsx";
 import Four from "./Four.jsx";
 import Five from "./Five.jsx";
+import Six from "./Six.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  <>
     {/* <App /> */}
     {/* <One /> */}
     {/* <Two/> */}
     {/* <Three/> */}
     {/* <Four/> */}
-    <Five/>
-  </StrictMode>
+    {/* <Five/> */}
+    <Six/>
+  </>
 );
