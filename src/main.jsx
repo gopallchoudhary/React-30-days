@@ -14,6 +14,7 @@ import Nine from "./Nine.jsx";
 import Ten from "./Ten.jsx";
 import Eleven from "./Eleven.jsx";
 import Twelve from "./Twelve.jsx";
+import Thirteen from "./Thirteen.jsx";
 
 createRoot(document.getElementById("root")).render(
   <>
@@ -29,6 +30,7 @@ createRoot(document.getElementById("root")).render(
     {/* <Nine/> */}
     {/* <Ten/> */}
     {/* <Eleven /> */}
-    <Twelve/>
+    {/* <Twelve/> */}
+    <Thirteen/>
   </>
 );
