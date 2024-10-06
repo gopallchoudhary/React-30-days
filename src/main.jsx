@@ -15,6 +15,16 @@ import Ten from "./Ten.jsx";
 import Eleven from "./Eleven.jsx";
 import Twelve from "./Twelve.jsx";
 import Thirteen from "./Thirteen.jsx";
+import Fourteen from "./Fourteen.jsx";
+const items = [
+  "Car1",
+  "apple",
+  "banana",
+  "car2",
+  "Bike",
+  "aeroplane",
+  "Aeroplace",
+];
 
 createRoot(document.getElementById("root")).render(
   <>
@@ -31,6 +41,7 @@ createRoot(document.getElementById("root")).render(
     {/* <Ten/> */}
     {/* <Eleven /> */}
     {/* <Twelve/> */}
-    <Thirteen/>
+    {/* <Thirteen/> */}
+    <Fourteen items={items} />
   </>
 );
