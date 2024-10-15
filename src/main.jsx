@@ -18,6 +18,7 @@ import Thirteen from "./Thirteen.jsx";
 import Fourteen from "./Fourteen.jsx";
 import Fifteen from "./Fifteen.jsx";
 import Sixteen from "./Sixteen.jsx";
+import Seventeen from "./Seventeen.jsx";
 const items = [
   "Car1",
   "apple",
@@ -48,6 +49,7 @@ createRoot(document.getElementById("root")).render(
     {/* <Thirteen/> */}
     {/* <Fourteen items={items} /> */}
     {/* <Fifteen items={items} itemsPerPage={2}/> */}
-    <Sixteen/>
+    {/* <Sixteen/> */}
+    <Seventeen/>
   </>
 );
